@@ -1,0 +1,21 @@
+.back-button {
+    margin: 8px;
+}
+
+@media screen and (orientation: portrait) {
+    button.back-button {
+        width: 10vw;
+        height: 10vw;
+        padding: 0;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    button.back-button {
+        width: 10vh;
+        height: 10vh;
+        max-height: 50px;
+        max-width: 50px;
+        padding: 0;
+    }
+}

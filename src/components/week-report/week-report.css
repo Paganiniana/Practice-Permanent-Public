@@ -1,0 +1,53 @@
+.week-report-contents {
+    width: 100%;
+    padding: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.week-report-contents .day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.week-report-contents .day .practice {
+    width: 5vw;
+    height: 5vw;
+    border: 4px solid black;
+}
+
+.week-report-contents .yes-practice {
+    background-color: #92cc41;
+}
+
+.week-report-contents .no-practice {
+    background-color: #e76e55;
+}
+
+/* iPhone Portrait mode*/
+@media screen and (orientation: portrait) and (max-width: 415px) {
+    .week-report-contents .day .day-name {
+        align-items:flex-start;
+        max-width:1ch;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
+
+/* iPhone - everything up to landscape */
+@media screen and (max-width: 668px) {
+    .week-report-contents {
+        padding: 5%;
+    }
+}
+
+/* iPhone - space between Portrait and Landscape */
+@media screen and (min-width: 416px) and (max-width: 668px) {
+    .week-report-contents .day {
+        font-size: 0.7em;
+    }
+}

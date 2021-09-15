@@ -1,0 +1,50 @@
+.nes-dialog-container {
+    position: fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    z-index: 11000;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nes-dialog {
+    background-color: white;
+}
+
+.nes-dialog menu {
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.nes-dialog menu button {
+    margin-bottom: 5vh;
+}
+
+/* iPhone width (landscape) */
+
+@media screen and (max-width: 812px) {
+    .nes-dialog {
+        max-width: 90vw;
+    }
+
+    .nes-dialog menu {
+        flex-wrap: wrap;
+    }
+}
+
+/* Larger than iPhone width  (landscape) */
+@media screen and (min-width: 812px) {
+    .nes-dialog {
+        max-width: 66vw;
+    }
+}

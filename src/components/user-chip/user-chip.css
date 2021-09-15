@@ -1,0 +1,13 @@
+.badge-container {
+    max-width: 300px;
+    width:100%;
+    margin-right: 4vw;
+}
+
+.badge-container .nes-badge {
+    width: 100%;
+}
+
+.badge-container button span {
+    left:0;
+}

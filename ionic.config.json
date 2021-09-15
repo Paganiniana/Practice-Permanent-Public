@@ -1,0 +1,7 @@
+{
+  "name": "practice-permanent",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

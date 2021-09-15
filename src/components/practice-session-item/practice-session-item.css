@@ -1,0 +1,15 @@
+.practice-session-item {
+ height: 80%;
+ width: 90%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;   
+}
+
+
+/* iPhone SE portrait*/
+@media screen and (max-width: 320px) {
+    .practice-session-item {
+        font-size: 0.8em;
+    }
+}

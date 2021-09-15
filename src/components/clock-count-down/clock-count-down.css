@@ -1,0 +1,9 @@
+@media screen and (orientation: portrait) and (max-width: 414px) {
+    .clock-count-down {
+        left:0;
+        right:0;
+        margin-right:auto;
+        margin-left: auto;
+        text-align: center;
+    }
+}

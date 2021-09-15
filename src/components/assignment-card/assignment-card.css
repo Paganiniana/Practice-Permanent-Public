@@ -1,0 +1,22 @@
+.assignment-card {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 3vh !important;
+    margin-right: 1vw !important;
+}
+
+/* iPhone landscape mode width*/
+@media screen and (min-width:736px) and (max-width: 1024px) {
+    /* Display in Halves */
+    .assignment-card {
+        width: 48%; /* Just large enough to wrap */
+    }
+}
+
+/* iPad Pro Width */
+@media screen and (min-width: 1024px) {
+    /* Display in Thirds */
+    .assignment-card {
+        width: 31%;
+    }
+}

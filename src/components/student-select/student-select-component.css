@@ -1,0 +1,26 @@
+.student-chip-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom:3vh;
+}
+
+.student-select-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-email {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* iPhone Portrait mode*/
+@media screen and (orientation: portrait) and (max-width: 415px) {
+    .add-email {
+        flex-wrap: wrap !important;
+    }
+    
+}

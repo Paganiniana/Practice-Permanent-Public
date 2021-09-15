@@ -1,0 +1,8 @@
+.nes-avatar {
+    image-rendering: pixelated;
+}
+
+.user-card {
+    margin-bottom: 5vh;
+    text-align: left;
+}

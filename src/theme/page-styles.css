@@ -1,0 +1,87 @@
+body, html {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    overflow:hidden;
+}
+
+ion-content, ion-page {
+    height: 100%;
+}
+
+ion-content {
+    /* Use Ionic's CSS properties to adjust the theme */
+    --padding-start: 4vw;
+    --padding-end: 4vw;
+    --padding-top: 1vh;
+    --padding-bottom: 12vh;
+}
+
+ion-content.has-header {
+    --padding-top:10vh;
+}
+
+.ion-page ion-content .page-title {
+    margin-bottom: 3vh;
+}
+
+ion-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+ion-header ion-toolbar {
+    padding-left:4vw;
+    padding-right: 4vw;
+    padding-top: 1vh;
+    border-radius:0;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+/* FAB styles */
+
+button.scroll-btn {
+    z-index:1000;
+    right: 3rem;
+    position: fixed;
+    bottom:6rem;
+    width: auto !important;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 60%);
+}
+
+button.scroll-btn .pixel-icon-container img {
+    width: 2rem
+}
+
+/* iPhone Portrait mode*/
+@media screen and (orientation: portrait) and (max-width: 415px) {
+    button.nes-btn, input, input.nes-input, div.nes-field {
+        width: calc(100% - 8px);
+        margin-bottom:8px;
+    }
+    button.nes-badge {
+        width: 100%;
+    }
+}
+
+/* iPad landscape mode */
+/* @media screen and (orientation: landscape) and (max-width: 1100px) {
+    ion-tab-bar ion-label {
+        font-size: 1em;
+    }
+
+    ion-tab-bar ion-tab-button .pixel-icon-container {
+        width: 15%;
+    }   
+} */
